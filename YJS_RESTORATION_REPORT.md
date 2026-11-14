@@ -1,14 +1,14 @@
-﻿# CodeCollab â€” Yjs Restoration & Audit Report
+# CodeNest â€” Yjs Restoration & Audit Report
 
 **Date:** October 2, 2026
-**Repository:** `CodeCollab`
+**Repository:** `CodeNest`
 **Status:** Restored & Verified
 
 ---
 
 ## 1. Executive Summary
 
-This report provides the full verification and audit details for restoring the **Yjs CRDT-based collaborative editing** architecture in CodeCollab and ensuring that the legacy Socket.IO full-document broadcasting (`code-change` / `sync-code`) does not conflict with CRDT synchronization.
+This report provides the full verification and audit details for restoring the **Yjs CRDT-based collaborative editing** architecture in CodeNest and ensuring that the legacy Socket.IO full-document broadcasting (`code-change` / `sync-code`) does not conflict with CRDT synchronization.
 
 ### Key Takeaway
 - **Checkpoint Identified:** Commit **`5e9284e`** (*"update README.md"*) following **`97e3b0c`** (*"feat: add CRDT-based collaborative editing with Yjs"*).

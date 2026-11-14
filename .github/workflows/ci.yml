@@ -1,4 +1,4 @@
-﻿name: CodeCollab CI
+name: CodeNest CI
 
 on:
   push:

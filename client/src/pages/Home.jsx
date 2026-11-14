@@ -67,10 +67,10 @@ const Home = () => {
         <header className="flex items-center justify-between py-2">
           <a href="/" className="flex items-center gap-3 text-left">
             <span className="grid size-10 place-items-center rounded-lg bg-cyan-400 font-mono text-lg font-black text-slate-950 shadow-lg shadow-cyan-400/20">
-              CC
+              CN
             </span>
             <span>
-              <span className="block text-base font-semibold tracking-wide text-white">CodeCollab</span>
+              <span className="block text-base font-semibold tracking-wide text-white">CodeNest</span>
               <span className="block text-xs font-medium text-cyan-200/80">Realtime coding rooms</span>
             </span>
           </a>
@@ -157,7 +157,7 @@ const Home = () => {
               </div>
 
               <div className="space-y-4 p-5 font-mono text-sm leading-7 text-slate-300 sm:p-6">
-                <p><span className="text-slate-600">01</span> <span className="text-fuchsia-300">const</span> room = <span className="text-cyan-200">'code-collab'</span></p>
+                <p><span className="text-slate-600">01</span> <span className="text-fuchsia-300">const</span> room = <span className="text-cyan-200">'codenest'</span></p>
                 <p><span className="text-slate-600">02</span> <span className="text-fuchsia-300">function</span> pairProgram<span className="text-slate-500">()</span> {'{'}</p>
                 <p><span className="text-slate-600">03</span> &nbsp;&nbsp;<span className="text-emerald-200">shareCursor</span><span className="text-slate-500">(</span>room<span className="text-slate-500">)</span></p>
                 <p><span className="text-slate-600">04</span> &nbsp;&nbsp;<span className="text-emerald-200">syncIdeas</span><span className="text-slate-500">()</span></p>
@@ -181,9 +181,6 @@ const Home = () => {
             </div>
           </section>
         </main>
-        <footer className="text-center text-sm text-slate-500">
-          Made with ❤️ by Arshdeep Singh.
-        </footer>
       </div>
     </div>
   )

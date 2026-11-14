@@ -254,7 +254,7 @@ async function startServer(port = PORT) {
 }
 
 app.get("/", (req, res) => {
-  res.send("CodeCollab Server Running");
+  res.send("CodeNest Server Running");
 });
 // Register API
 app.post("/auth/register", registerLimiter, async (req, res) => {

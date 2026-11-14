@@ -66,7 +66,7 @@ export default function Auth() {
     <div className="flex min-h-screen items-center justify-center bg-slate-950 px-4 text-white">
       <div className="w-full max-w-md rounded-2xl border border-slate-700 bg-slate-900 p-8 shadow-xl">
         <h1 className="mb-2 text-center text-3xl font-bold text-cyan-300">
-          CodeCollab
+          CodeNest
         </h1>
 
         <h2 className="mb-6 text-center text-xl font-semibold">

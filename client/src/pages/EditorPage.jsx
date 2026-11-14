@@ -312,10 +312,10 @@ const EditorPage = () => {
         <header className="flex flex-wrap items-center justify-between gap-4 py-2">
           <Link to="/" className="flex items-center gap-3 text-left" >
             <span className="grid size-10 place-items-center rounded-lg bg-cyan-400 font-mono text-lg font-black text-slate-950 shadow-lg shadow-cyan-400/20">
-              CC
+              CN
             </span>
             <span>
-              <span className="block text-base font-semibold tracking-wide text-white">CodeCollab</span>
+              <span className="block text-base font-semibold tracking-wide text-white">CodeNest</span>
               <span className="block text-xs font-medium text-cyan-200/80">Realtime coding rooms</span>
             </span>
             <span className="hidden rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-slate-300 shadow-sm backdrop-blur sm:inline-flex">

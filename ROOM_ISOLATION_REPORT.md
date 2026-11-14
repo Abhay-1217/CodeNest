@@ -1,7 +1,7 @@
-﻿# CodeCollab â€” Room Isolation & Synchronization Verification Report
+# CodeNest â€” Room Isolation & Synchronization Verification Report
 
 **Date:** October 2, 2026
-**Repository:** `CodeCollab`
+**Repository:** `CodeNest`
 **Target:** Room Isolation & CRDT Collaboration Verification
 **Status:** ALL TESTS PASSED
 
@@ -9,7 +9,7 @@
 
 ## 1. Executive Summary
 
-This report documents the verification and automated integration testing performed on CodeCollab to determine whether separate collaborative rooms are strictly isolated and that concurrent editing converges correctly using Yjs and `y-socket.io`.
+This report documents the verification and automated integration testing performed on CodeNest to determine whether separate collaborative rooms are strictly isolated and that concurrent editing converges correctly using Yjs and `y-socket.io`.
 
 ### Results Summary
 | Check / Test | Result | Notes |
@@ -25,7 +25,7 @@ This report documents the verification and automated integration testing perform
 
 ## 2. Room ID to Yjs Document Mapping Architecture
 
-An audit of the provider, routing, and server implementations was performed to trace how CodeCollab room IDs map to collaborative documents.
+An audit of the provider, routing, and server implementations was performed to trace how CodeNest room IDs map to collaborative documents.
 
 ### Trace Flow
 

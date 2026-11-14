@@ -1,6 +1,6 @@
-# CodeCollab — Real-Time Collaborative Code Editor
+# CodeNest — Real-Time Collaborative Code Editor
 
-CodeCollab is a full-stack collaborative coding platform that allows multiple users to work together in a shared code editor in real time. It combines CRDT-based synchronization, room-based collaboration, persistent document storage and backend-driven code execution.
+CodeNest is a full-stack collaborative coding platform that allows multiple users to work together in a shared code editor in real time. It combines CRDT-based synchronization, room-based collaboration, persistent document storage and backend-driven code execution.
 
 ## Features
 
@@ -34,7 +34,7 @@ CodeCollab is a full-stack collaborative coding platform that allows multiple us
 
 ### 1. Real-Time Collaboration
 
-CodeCollab uses two complementary technologies:
+CodeNest uses two complementary technologies:
 
 - **Socket.IO:** Handles application-level realtime communication, including room events and participant updates.
 - **Yjs:** Maintains the shared collaborative document and merges concurrent edits using CRDT synchronization.
@@ -118,7 +118,7 @@ Database migrations are maintained in `server/migrations`.
 ## Project Structure
 
 ```text
-CodeCollab/
+CodeNest/
 ├── client/
 │   ├── src/
 │   │   ├── components/
@@ -158,7 +158,7 @@ CodeCollab/
 
 ```bash
 git clone <YOUR_GITHUB_REPOSITORY_URL>
-cd CodeCollab
+cd CodeNest
 ```
 
 ### 2. Configure environment variables
